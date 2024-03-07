@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define variables
-        DOCKER_IMAGE       = 'pornpilin/custom-nginx-registry:tagname'
+        DOCKER_IMAGE       = 'pornpilin/fastapi-webhook:latest'
         DOCKER_CREDENTIALS = credentials('dokkerhub')
     }
 
